@@ -1,0 +1,24 @@
+.table_list {
+  //   box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+
+  .news_article {
+    display: flex;
+    align-items: center;
+    .news_image {
+      height: 5rem;
+      width: 5rem;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  }
+
+  .status {
+    &.Published {
+      color: green;
+    }
+    &.Draft {
+      color: #ff74b1;
+    }
+  }
+}
